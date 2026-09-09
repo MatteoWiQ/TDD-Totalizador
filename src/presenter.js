@@ -6,6 +6,7 @@ const cantidad = document.querySelector("#cantidad-input");
 const precio = document.querySelector("#precio-input");
 const estado = document.querySelector("#estado-select");
 const categoria = document.querySelector("#categoria-select");
+const peso = document.querySelector("#peso-input");
 const form = document.querySelector("#venta-form");
 const cancelarButton = document.querySelector("#cancelar-button");
 const confirmarButton = document.querySelector("#confirmar-button");
@@ -17,6 +18,7 @@ function reiniciarFormulario() {
   precio.value = estadoInicial.precio;
   estado.value = estadoInicial.estado;
   categoria.value = "Varios";
+  peso.value = 0;
   div.innerHTML = "";
 }
 
@@ -62,6 +64,7 @@ function renderizar() {
   const impuesto = venta.redondearMoneda(venta.calcularImpuesto(subtotal, estado.value));
   const impuestoAdicional = venta.impuestoAdicionalCategoria(categoria.value);
   const descuentoCategoria = venta.descuentoAdicionalCategoria(categoria.value);
+  const costoEnvioUnidad = venta.costoEnvioUnidad(Number(peso.value));
   const total = venta.redondearMoneda(venta.calcularTotalImpuesto(subtotal, impuesto));
   const descuento = venta.calcularDescuento(total);
   const ahorro = venta.redondearMoneda(venta.calcularAhorro(total, descuento));
@@ -72,6 +75,7 @@ function renderizar() {
     "Impuesto (" + estado.value + " " + tasa + "): " + impuesto,
     "Impuesto adicional (" + categoria.value + " " + impuestoAdicional + "): " + venta.redondearMoneda(impuestoAdicional * subtotal),
     "Descuento adicional (" + categoria.value + " " + descuentoCategoria + "): " + venta.redondearMoneda(descuentoCategoria * subtotal),
+    "Costo de envio por unidad (peso " + peso.value + "): $" + venta.redondearMoneda(costoEnvioUnidad),
     "Total: " + total,
     "Descuento: " + descuento,
     "Ahorro: $" + ahorro,

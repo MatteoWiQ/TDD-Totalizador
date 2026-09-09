@@ -728,9 +728,39 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "191374b3b425dd5d929f1a9754db6e2c7f0ca919",
     "commitName": "feat: definir costo de envio 8 para peso volumetrico entre 101 y 200",
     "commitTimestamp": 1788958334231,
     "testId": 28
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1788958355268,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1788958370896,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1788958477325,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: definir costo de envio 9 para peso volumetrico mayor a 200 y mostrarlo en la UI",
+    "commitTimestamp": 1788958484526,
+    "testId": 29
   }
 ]

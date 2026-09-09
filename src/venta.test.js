@@ -196,5 +196,10 @@ describe("Venta", () => {
       const venta = new Venta();
       expect(venta.costoEnvioUnidad(200)).toEqual(8);
     });
+
+    it("deberia devolver 9 para un peso volumetrico de 201", () => {
+      const venta = new Venta();
+      expect(venta.costoEnvioUnidad(201)).toEqual(9);
+    });
   });
 });
