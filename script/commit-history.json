@@ -722,17 +722,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dc86c7fa3a98065c53909680a6d85e88e20f5462",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T13:15:41.000Z",
       "message": "test: verificar sin descuento fijo cuando no se cumplen las condiciones del tipo de cliente",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/dc86c7fa3a98065c53909680a6d85e88e20f5462"
     },
     "stats": {
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T13:17:11.000Z",
+      "message": "feat: agregar seleccion de tipo de cliente en la UI y mostrar descuentos de envio y monto fijo en el detalle",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 20,
+      "deletions": 1,
       "date": "2026-09-09"
     },
     "coverage": 100,

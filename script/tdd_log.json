@@ -948,9 +948,23 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc86c7fa3a98065c53909680a6d85e88e20f5462",
     "commitName": "test: verificar sin descuento fijo cuando no se cumplen las condiciones del tipo de cliente",
     "commitTimestamp": 1788959743764,
     "testId": 38
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1788959823189,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar seleccion de tipo de cliente en la UI y mostrar descuentos de envio y monto fijo en el detalle",
+    "commitTimestamp": 1788959833264,
+    "testId": 39
   }
 ]
