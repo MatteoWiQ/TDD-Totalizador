@@ -108,6 +108,9 @@ class Venta {
     if (tipoCliente === "Recurrente") {
       return 0.005;
     }
+    if (tipoCliente === "Antiguo Recurrente") {
+      return 0.01;
+    }
     return 0;
   }
 
