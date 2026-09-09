@@ -158,4 +158,11 @@ describe("Venta", () => {
       expect(venta.impuestoAdicionalCategoria("Bebidas alcoholicas")).toEqual(0.07);
     });
   });
+
+  describe("descuentoAdicionalCategoria", () => {
+    it("deberia devolver el descuento adicional de la categoria", () => {
+      const venta = new Venta();
+      expect(venta.descuentoAdicionalCategoria("Alimentos")).toEqual(0.02);
+    });
+  });
 });

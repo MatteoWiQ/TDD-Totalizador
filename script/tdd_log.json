@@ -550,9 +550,39 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "daefacff230664148f841a645a1ed212ed574317",
     "commitName": "feat: calcular impuesto adicional por categoria de producto y mostrarlo en la UI",
     "commitTimestamp": 1788957367955,
     "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788957574534,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788957588014,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788957601782,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento adicional por categoria de producto y mostrarlo en la UI",
+    "commitTimestamp": 1788957609083,
+    "testId": 22
   }
 ]

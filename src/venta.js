@@ -111,6 +111,19 @@ class Venta {
     };
     return impuestos[categoria];
   }
+
+  descuentoAdicionalCategoria(categoria) {
+    const descuentos = {
+      Alimentos: 0.02,
+      "Bebidas alcoholicas": 0,
+      "Material de escritorio": 0.015,
+      Muebles: 0,
+      Electronicos: 0.01,
+      Vestimenta: 0,
+      Varios: 0
+    };
+    return descuentos[categoria];
+  }
 }
 
 export default Venta;

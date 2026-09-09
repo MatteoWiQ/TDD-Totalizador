@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "daefacff230664148f841a645a1ed212ed574317",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T12:36:05.000Z",
       "message": "feat: calcular impuesto adicional por categoria de producto y mostrarlo en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/daefacff230664148f841a645a1ed212ed574317"
     },
     "stats": {
       "total": 22,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T12:40:07.000Z",
+      "message": "feat: calcular descuento adicional por categoria de producto y mostrarlo en la UI",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 22,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }
