@@ -23,6 +23,9 @@ class Venta {
   }
 
   calcularDescuento(total) {
+    if (total >= 1000) {
+      return 0.03;
+    }
     return 0;
   }
 }

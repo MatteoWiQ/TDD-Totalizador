@@ -104,9 +104,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fb8ec7a71d3860cc2ec692dd9a4d34a3890a96ae",
     "commitName": "feat: definir descuento 0 cuando el total es menor a 1000 y mostrarlo en la UI",
     "commitTimestamp": 1788924254630,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788924291644,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788924303452,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento escalonado de 3% desde un total de 1000",
+    "commitTimestamp": 1788924316016,
+    "testId": 5
   }
 ]
