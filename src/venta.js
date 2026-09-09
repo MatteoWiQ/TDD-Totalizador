@@ -73,7 +73,7 @@ class Venta {
     return {
       cantidad: 0,
       precio: 0,
-      estado: "UT",
+      estado: "CA",
       errores: []
     };
   }

@@ -30,6 +30,7 @@ confirmarButton.addEventListener("click", () => {
 
 function renderizarEstados() {
   estado.innerHTML = venta.obtenerEstados().map((e) => "<option value='" + e + "'>" + e + "</option>").join("");
+  estado.value = venta.crearEstadoInicial().estado;
 }
 
 renderizarEstados();

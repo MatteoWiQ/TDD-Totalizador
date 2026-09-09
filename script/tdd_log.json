@@ -460,9 +460,39 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3ecae1c93ef51fd2751e49870eeb9e2e10cb57c5",
     "commitName": "feat: aplicar descuento escalonado de 10% desde un total de 10000",
     "commitTimestamp": 1788956965659,
     "testId": 18
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788956991223,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788957018846,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788957082623,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: usar California como estado por defecto en el estado inicial y la lista desplegable",
+    "commitTimestamp": 1788957092109,
+    "testId": 19
   }
 ]
