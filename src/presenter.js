@@ -60,6 +60,7 @@ function renderizar() {
   const subtotal = venta.redondearMoneda(venta.calcularSubtotal(precioValor, cantidadValor));
   const tasa = venta.calcularImpuestoTasa(estado.value);
   const impuesto = venta.redondearMoneda(venta.calcularImpuesto(subtotal, estado.value));
+  const impuestoAdicional = venta.impuestoAdicionalCategoria(categoria.value);
   const total = venta.redondearMoneda(venta.calcularTotalImpuesto(subtotal, impuesto));
   const descuento = venta.calcularDescuento(total);
   const ahorro = venta.redondearMoneda(venta.calcularAhorro(total, descuento));
@@ -68,6 +69,7 @@ function renderizar() {
   const lineas = [
     "Subtotal: " + subtotal,
     "Impuesto (" + estado.value + " " + tasa + "): " + impuesto,
+    "Impuesto adicional (" + categoria.value + " " + impuestoAdicional + "): " + venta.redondearMoneda(impuestoAdicional * subtotal),
     "Total: " + total,
     "Descuento: " + descuento,
     "Ahorro: $" + ahorro,

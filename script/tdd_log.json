@@ -520,9 +520,39 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4a0c52a10fc960246e695a73066d6aed0d95ffc",
     "commitName": "feat: obtener la lista de categorias de producto y mostrarla en la lista desplegable",
     "commitTimestamp": 1788957297215,
     "testId": 20
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788957327821,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788957341386,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788957359209,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto adicional por categoria de producto y mostrarlo en la UI",
+    "commitTimestamp": 1788957367955,
+    "testId": 21
   }
 ]

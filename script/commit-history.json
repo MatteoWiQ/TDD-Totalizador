@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d4a0c52a10fc960246e695a73066d6aed0d95ffc",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T12:34:55.000Z",
       "message": "feat: obtener la lista de categorias de producto y mostrarla en la lista desplegable",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/d4a0c52a10fc960246e695a73066d6aed0d95ffc"
     },
     "stats": {
       "total": 37,
@@ -395,6 +395,25 @@
     },
     "coverage": 100,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T12:36:05.000Z",
+      "message": "feat: calcular impuesto adicional por categoria de producto y mostrarlo en la UI",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 22,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

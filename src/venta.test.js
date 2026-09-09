@@ -151,4 +151,11 @@ describe("Venta", () => {
       ]);
     });
   });
+
+  describe("impuestoAdicionalCategoria", () => {
+    it("deberia devolver el impuesto adicional de la categoria", () => {
+      const venta = new Venta();
+      expect(venta.impuestoAdicionalCategoria("Bebidas alcoholicas")).toEqual(0.07);
+    });
+  });
 });
