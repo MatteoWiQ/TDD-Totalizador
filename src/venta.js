@@ -104,7 +104,10 @@ class Venta {
     return ["Normal", "Recurrente", "Antiguo Recurrente", "Especial"];
   }
 
-  descuentoEnvioCliente() {
+  descuentoEnvioCliente(tipoCliente) {
+    if (tipoCliente === "Recurrente") {
+      return 0.005;
+    }
     return 0;
   }
 

@@ -221,5 +221,10 @@ describe("Venta", () => {
       const venta = new Venta();
       expect(venta.descuentoEnvioCliente("Normal")).toEqual(0);
     });
+
+    it("deberia devolver 0.005 de descuento en envio para un cliente Recurrente", () => {
+      const venta = new Venta();
+      expect(venta.descuentoEnvioCliente("Recurrente")).toEqual(0.005);
+    });
   });
 });

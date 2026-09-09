@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "190c936d4c1cda741452335cd91f4ff16f45d41b",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T13:10:50.000Z",
       "message": "feat: definir 0 de descuento en envio para cliente Normal",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/190c936d4c1cda741452335cd91f4ff16f45d41b"
     },
     "stats": {
       "total": 11,
@@ -623,6 +623,25 @@
     },
     "coverage": 100,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T13:11:38.000Z",
+      "message": "feat: definir 0.5 de descuento en envio para cliente Recurrente",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }
