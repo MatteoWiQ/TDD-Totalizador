@@ -780,9 +780,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3b6560607aba7c2213f1d2c4851a18751fc56a34",
     "commitName": "feat: obtener la lista de tipos de cliente disponibles",
     "commitTimestamp": 1788959273984,
     "testId": 30
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1788959309560,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1788959333059,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: definir al tipo de cliente Normal como valor por defecto en el estado inicial",
+    "commitTimestamp": 1788959345572,
+    "testId": 31
   }
 ]

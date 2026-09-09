@@ -120,6 +120,7 @@ describe("Venta", () => {
         cantidad: 0,
         precio: 0,
         estado: "CA",
+        tipoCliente: "Normal",
         errores: []
       });
     });

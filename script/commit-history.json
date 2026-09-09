@@ -570,16 +570,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3b6560607aba7c2213f1d2c4851a18751fc56a34",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T13:07:52.000Z",
       "message": "feat: obtener la lista de tipos de cliente disponibles",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/3b6560607aba7c2213f1d2c4851a18751fc56a34"
     },
     "stats": {
       "total": 16,
       "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T13:09:03.000Z",
+      "message": "feat: definir al tipo de cliente Normal como valor por defecto en el estado inicial",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
       "deletions": 0,
       "date": "2026-09-09"
     },
