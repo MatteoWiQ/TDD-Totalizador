@@ -59,6 +59,15 @@ class Venta {
   obtenerEstados() {
     return ["UT", "NV", "TX", "AL", "CA"];
   }
+
+  crearEstadoInicial() {
+    return {
+      cantidad: 0,
+      precio: 0,
+      estado: "UT",
+      errores: []
+    };
+  }
 }
 
 export default Venta;

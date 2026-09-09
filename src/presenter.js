@@ -6,7 +6,20 @@ const cantidad = document.querySelector("#cantidad-input");
 const precio = document.querySelector("#precio-input");
 const estado = document.querySelector("#estado-select");
 const form = document.querySelector("#venta-form");
+const cuenta = document.querySelector("#cancelar-button");
 const div = document.querySelector("#resultado-div");
+
+function reiniciarFormulario() {
+  const estadoInicial = venta.crearEstadoInicial();
+  cantidad.value = estadoInicial.cantidad;
+  precio.value = estadoInicial.precio;
+  estado.value = estadoInicial.estado;
+  div.innerHTML = "";
+}
+
+cuenta.addEventListener("click", () => {
+  reiniciarFormulario();
+});
 
 function renderizarEstados() {
   estado.innerHTML = venta.obtenerEstados().map((e) => "<option value='" + e + "'>" + e + "</option>").join("");

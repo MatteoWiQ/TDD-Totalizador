@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e5840ff3774a52113856c090de7d9762858e91a",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:45:44.000Z",
       "message": "feat: obtener la lista de estados para la lista desplegable desde la clase Venta",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/9e5840ff3774a52113856c090de7d9762858e91a"
     },
     "stats": {
       "total": 15,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:47:13.000Z",
+      "message": "feat: cancelar la compra reiniciando el formulario al estado inicial",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 34,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

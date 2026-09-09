@@ -97,4 +97,16 @@ describe("Venta", () => {
       expect(venta.obtenerEstados()).toEqual(["UT", "NV", "TX", "AL", "CA"]);
     });
   });
+
+  describe("crearEstadoInicial", () => {
+    it("deberia crear el estado con todos los campos por defecto", () => {
+      const venta = new Venta();
+      expect(venta.crearEstadoInicial()).toEqual({
+        cantidad: 0,
+        precio: 0,
+        estado: "UT",
+        errores: []
+      });
+    });
+  });
 });
