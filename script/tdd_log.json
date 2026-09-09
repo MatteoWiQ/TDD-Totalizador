@@ -416,9 +416,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "49e58415bd310310be2b9bbb3de2a9d51376fadd",
     "commitName": "feat: aplicar descuento escalonado de 5% desde un total de 3000",
     "commitTimestamp": 1788956876620,
     "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788956901272,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788956914901,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento escalonado de 7% desde un total de 7000",
+    "commitTimestamp": 1788956922861,
+    "testId": 17
   }
 ]
