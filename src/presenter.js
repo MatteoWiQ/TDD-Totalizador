@@ -6,7 +6,8 @@ const cantidad = document.querySelector("#cantidad-input");
 const precio = document.querySelector("#precio-input");
 const estado = document.querySelector("#estado-select");
 const form = document.querySelector("#venta-form");
-const cuenta = document.querySelector("#cancelar-button");
+const cancelarButton = document.querySelector("#cancelar-button");
+const confirmarButton = document.querySelector("#confirmar-button");
 const div = document.querySelector("#resultado-div");
 
 function reiniciarFormulario() {
@@ -17,8 +18,14 @@ function reiniciarFormulario() {
   div.innerHTML = "";
 }
 
-cuenta.addEventListener("click", () => {
+cancelarButton.addEventListener("click", () => {
   reiniciarFormulario();
+  alert("Compra cancelada");
+});
+
+confirmarButton.addEventListener("click", () => {
+  venta.confirmarCompra(Number(cantidad.value), Number(precio.value), estado.value);
+  alert("Compra confirmada");
 });
 
 function renderizarEstados() {

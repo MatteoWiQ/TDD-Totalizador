@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c1361ced35268130bafc544f226fe1bb2a87060c",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:47:13.000Z",
       "message": "feat: cancelar la compra reiniciando el formulario al estado inicial",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/c1361ced35268130bafc544f226fe1bb2a87060c"
     },
     "stats": {
       "total": 34,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:50:42.000Z",
+      "message": "feat: confirmar la compra y refactorizar cancelar y confirmar para mostrar alert",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 30,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

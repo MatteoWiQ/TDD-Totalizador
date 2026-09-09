@@ -364,9 +364,39 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c1361ced35268130bafc544f226fe1bb2a87060c",
     "commitName": "feat: cancelar la compra reiniciando el formulario al estado inicial",
     "commitTimestamp": 1788925634254,
     "testId": 14
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788925697027,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788925819329,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788925837839,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: confirmar la compra y refactorizar cancelar y confirmar para mostrar alert",
+    "commitTimestamp": 1788925843638,
+    "testId": 15
   }
 ]

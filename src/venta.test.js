@@ -109,4 +109,16 @@ describe("Venta", () => {
       });
     });
   });
+
+  describe("confirmarCompra", () => {
+    it("deberia devolver la estructura de compra confirmada", () => {
+      const venta = new Venta();
+      expect(venta.confirmarCompra(20, 3, "TX")).toEqual({
+        cantidad: 20,
+        precio: 3,
+        estado: "TX",
+        confirmada: true
+      });
+    });
+  });
 });

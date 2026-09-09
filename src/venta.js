@@ -68,6 +68,15 @@ class Venta {
       errores: []
     };
   }
+
+  confirmarCompra(cantidad, precio, estado) {
+    return {
+      cantidad: cantidad,
+      precio: precio,
+      estado: estado,
+      confirmada: true
+    };
+  }
 }
 
 export default Venta;
