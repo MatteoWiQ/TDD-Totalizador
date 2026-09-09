@@ -21,4 +21,11 @@ describe("Venta", () => {
       expect(venta.calcularImpuesto(60, "TX")).toEqual(3.75);
     });
   });
+
+  describe("calcularTotalImpuesto", () => {
+    it("deberia sumar el impuesto al subtotal", () => {
+      const venta = new Venta();
+      expect(venta.calcularTotalImpuesto(60, 3.75)).toEqual(63.75);
+    });
+  });
 });

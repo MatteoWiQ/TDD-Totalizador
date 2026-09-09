@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "03df11ca18a7e9a2d9cd5d1ff6f735e3a541408c",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:17:06.000Z",
       "message": "feat: calcular el monto del impuesto sobre el subtotal y mostrarlo en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/03df11ca18a7e9a2d9cd5d1ff6f735e3a541408c"
     },
     "stats": {
       "total": 14,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:17:58.000Z",
+      "message": "feat: aplicar el impuesto al subtotal y mostrarlo en la UI",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

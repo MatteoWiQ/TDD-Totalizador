@@ -60,9 +60,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "03df11ca18a7e9a2d9cd5d1ff6f735e3a541408c",
     "commitName": "feat: calcular el monto del impuesto sobre el subtotal y mostrarlo en la UI",
     "commitTimestamp": 1788923827930,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788923841797,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788923867504,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar el impuesto al subtotal y mostrarlo en la UI",
+    "commitTimestamp": 1788923879123,
+    "testId": 3
   }
 ]

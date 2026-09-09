@@ -17,6 +17,10 @@ class Venta {
   calcularImpuesto(subtotal, estado) {
     return subtotal * this.calcularImpuestoTasa(estado);
   }
+
+  calcularTotalImpuesto(subtotal, impuesto) {
+    return subtotal + impuesto;
+  }
 }
 
 export default Venta;

@@ -20,9 +20,11 @@ function renderizar() {
   const subtotal = venta.calcularSubtotal(Number(precio.value), Number(cantidad.value));
   const tasa = venta.calcularImpuestoTasa(estado.value);
   const impuesto = venta.calcularImpuesto(subtotal, estado.value);
+  const totalConImpuesto = venta.calcularTotalImpuesto(subtotal, impuesto);
   div.innerHTML =
     "<p>Subtotal: " + subtotal + "</p>" +
-    "<p>Impuesto (" + estado.value + " " + tasa + "): " + impuesto + "</p>";
+    "<p>Impuesto (" + estado.value + " " + tasa + "): " + impuesto + "</p>" +
+    "<p>Total con impuesto: " + totalConImpuesto + "</p>";
 }
 
 form.addEventListener("submit", (event) => {
