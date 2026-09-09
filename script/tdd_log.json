@@ -170,9 +170,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "95ecac39017a1fb4a3ed355f6eef988bdd277650",
     "commitName": "feat: calcular el total con descuento aplicado y mostrarlo en la UI",
     "commitTimestamp": 1788924444703,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788924463669,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788924478081,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular el monto ahorrado en dolares y mostrarlo en la UI",
+    "commitTimestamp": 1788924489649,
+    "testId": 8
   }
 ]

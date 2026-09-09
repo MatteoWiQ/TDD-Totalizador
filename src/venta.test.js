@@ -52,4 +52,11 @@ describe("Venta", () => {
       expect(venta.calcularTotalConDescuento(1000)).toEqual(970);
     });
   });
+
+  describe("calcularAhorro", () => {
+    it("deberia calcular el monto ahorrado en dolares", () => {
+      const venta = new Venta();
+      expect(venta.calcularAhorro(1000, 0.03)).toEqual(30);
+    });
+  });
 });

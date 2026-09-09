@@ -35,6 +35,10 @@ class Venta {
   calcularTotalConDescuento(total) {
     return total - total * this.calcularDescuento(total);
   }
+
+  calcularAhorro(total, descuento) {
+    return total * descuento;
+  }
 }
 
 export default Venta;
