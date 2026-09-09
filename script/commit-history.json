@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "75625089027f94e82211c4b0310c6c14656e8b26",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:28:08.000Z",
       "message": "feat: calcular el monto ahorrado en dolares y mostrarlo en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/75625089027f94e82211c4b0310c6c14656e8b26"
     },
     "stats": {
       "total": 13,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:32:42.000Z",
+      "message": "feat: calcular el precio total final y refactorizar para mostrar el detalle completo en el HTML",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 23,
+      "deletions": 8,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

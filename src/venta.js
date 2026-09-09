@@ -39,6 +39,10 @@ class Venta {
   calcularAhorro(total, descuento) {
     return total * descuento;
   }
+
+  calcularTotalFinal(subtotal, ahorro, impuesto) {
+    return subtotal - ahorro + impuesto;
+  }
 }
 
 export default Venta;

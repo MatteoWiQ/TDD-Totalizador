@@ -192,9 +192,39 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "75625089027f94e82211c4b0310c6c14656e8b26",
     "commitName": "feat: calcular el monto ahorrado en dolares y mostrarlo en la UI",
     "commitTimestamp": 1788924489649,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788924726269,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788924734406,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788924756475,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular el precio total final y refactorizar para mostrar el detalle completo en el HTML",
+    "commitTimestamp": 1788924763535,
+    "testId": 9
   }
 ]

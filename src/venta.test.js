@@ -59,4 +59,11 @@ describe("Venta", () => {
       expect(venta.calcularAhorro(1000, 0.03)).toEqual(30);
     });
   });
+
+  describe("calcularTotalFinal", () => {
+    it("deberia calcular el precio total final combinando subtotal, descuento e impuesto", () => {
+      const venta = new Venta();
+      expect(venta.calcularTotalFinal(60, 0, 3.75)).toEqual(63.75);
+    });
+  });
 });
