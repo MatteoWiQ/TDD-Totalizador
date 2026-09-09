@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "628df876494e528f1891b57e679f1f492257c754",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:25:15.000Z",
       "message": "feat: aplicar descuento escalonado de 3% desde un total de 1000",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/628df876494e528f1891b57e679f1f492257c754"
     },
     "stats": {
       "total": 8,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:25:49.000Z",
+      "message": "feat: aplicar descuento escalonado de 15% desde un total de 30000",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
