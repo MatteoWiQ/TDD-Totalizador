@@ -51,6 +51,10 @@ class Venta {
   esCantidadValida(cantidad) {
     return cantidad > 0;
   }
+
+  esPrecioValido(precio) {
+    return precio > 0;
+  }
 }
 
 export default Venta;

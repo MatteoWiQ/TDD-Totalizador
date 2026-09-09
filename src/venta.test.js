@@ -82,4 +82,12 @@ describe("Venta", () => {
       expect(venta.esCantidadValida(-5)).toEqual(false);
     });
   });
+
+  describe("esPrecioValido", () => {
+    it("deberia validar que el precio sea mayor a cero", () => {
+      const venta = new Venta();
+      expect(venta.esPrecioValido(3)).toEqual(true);
+      expect(venta.esPrecioValido(0)).toEqual(false);
+    });
+  });
 });

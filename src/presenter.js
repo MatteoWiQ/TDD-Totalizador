@@ -25,6 +25,11 @@ function renderizar() {
     return;
   }
 
+  if (!venta.esPrecioValido(precioValor)) {
+    div.innerHTML = "<p>Precio invalido (debe ser mayor a 0)</p>";
+    return;
+  }
+
   const subtotal = venta.redondearMoneda(venta.calcularSubtotal(precioValor, cantidadValor));
   const tasa = venta.calcularImpuestoTasa(estado.value);
   const impuesto = venta.redondearMoneda(venta.calcularImpuesto(subtotal, estado.value));

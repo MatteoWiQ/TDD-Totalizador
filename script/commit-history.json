@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "564e762a81d1a594d9fb859bfea7ada498d22936",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:41:17.000Z",
       "message": "feat: validar que la cantidad sea mayor a cero y mostrar el error en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/564e762a81d1a594d9fb859bfea7ada498d22936"
     },
     "stats": {
       "total": 23,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:42:25.000Z",
+      "message": "feat: validar que el precio sea mayor a cero y mostrar el error en la UI",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

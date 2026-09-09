@@ -282,9 +282,39 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "564e762a81d1a594d9fb859bfea7ada498d22936",
     "commitName": "feat: validar que la cantidad sea mayor a cero y mostrar el error en la UI",
     "commitTimestamp": 1788925278381,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788925297593,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788925316711,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788925337061,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que el precio sea mayor a cero y mostrar el error en la UI",
+    "commitTimestamp": 1788925346890,
+    "testId": 12
   }
 ]
