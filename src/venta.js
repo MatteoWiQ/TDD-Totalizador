@@ -104,6 +104,10 @@ class Venta {
     return ["Normal", "Recurrente", "Antiguo Recurrente", "Especial"];
   }
 
+  descuentoEnvioCliente() {
+    return 0;
+  }
+
   impuestoAdicionalCategoria(categoria) {
     const impuestos = {
       Alimentos: 0,

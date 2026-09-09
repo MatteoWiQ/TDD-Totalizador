@@ -802,9 +802,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc104355b4eb5bfa7618727973b72ad5a886037a",
     "commitName": "feat: definir al tipo de cliente Normal como valor por defecto en el estado inicial",
     "commitTimestamp": 1788959345572,
     "testId": 31
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1788959414957,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1788959429078,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: definir 0 de descuento en envio para cliente Normal",
+    "commitTimestamp": 1788959452743,
+    "testId": 32
   }
 ]

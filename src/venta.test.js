@@ -215,4 +215,11 @@ describe("Venta", () => {
       ]);
     });
   });
+
+  describe("descuentoEnvioCliente", () => {
+    it("deberia devolver 0 de descuento en envio para un cliente Normal", () => {
+      const venta = new Venta();
+      expect(venta.descuentoEnvioCliente("Normal")).toEqual(0);
+    });
+  });
 });
