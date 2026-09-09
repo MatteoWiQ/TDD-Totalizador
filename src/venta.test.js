@@ -14,4 +14,11 @@ describe("Venta", () => {
       expect(venta.calcularImpuestoTasa("TX")).toEqual(0.0625);
     });
   });
+
+  describe("calcularImpuesto", () => {
+    it("deberia calcular el impuesto sobre el subtotal", () => {
+      const venta = new Venta();
+      expect(venta.calcularImpuesto(60, "TX")).toEqual(3.75);
+    });
+  });
 });

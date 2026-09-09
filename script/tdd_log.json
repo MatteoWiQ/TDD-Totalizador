@@ -38,9 +38,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2eb0d201fbb30679ac81d90b3aa9f20c63265a3f",
     "commitName": "feat: obtener la tasa de impuesto por estado UT NV TX AL CA y llenar la lista desplegable",
     "commitTimestamp": 1788923528916,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788923799706,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788923817036,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular el monto del impuesto sobre el subtotal y mostrarlo en la UI",
+    "commitTimestamp": 1788923827930,
+    "testId": 2
   }
 ]

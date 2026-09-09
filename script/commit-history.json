@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2eb0d201fbb30679ac81d90b3aa9f20c63265a3f",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:12:07.000Z",
       "message": "feat: obtener la tasa de impuesto por estado UT NV TX AL CA y llenar la lista desplegable",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/2eb0d201fbb30679ac81d90b3aa9f20c63265a3f"
     },
     "stats": {
       "total": 31,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:17:06.000Z",
+      "message": "feat: calcular el monto del impuesto sobre el subtotal y mostrarlo en la UI",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
