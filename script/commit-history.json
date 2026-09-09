@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "feda743c5aacd19d9073b66d00a7a3c2cb4d837f",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:42:25.000Z",
       "message": "feat: validar que el precio sea mayor a cero y mostrar el error en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/feda743c5aacd19d9073b66d00a7a3c2cb4d837f"
     },
     "stats": {
       "total": 17,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:45:44.000Z",
+      "message": "feat: obtener la lista de estados para la lista desplegable desde la clase Venta",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 12,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

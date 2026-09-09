@@ -55,6 +55,10 @@ class Venta {
   esPrecioValido(precio) {
     return precio > 0;
   }
+
+  obtenerEstados() {
+    return ["UT", "NV", "TX", "AL", "CA"];
+  }
 }
 
 export default Venta;

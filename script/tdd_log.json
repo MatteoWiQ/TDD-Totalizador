@@ -312,9 +312,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "feda743c5aacd19d9073b66d00a7a3c2cb4d837f",
     "commitName": "feat: validar que el precio sea mayor a cero y mostrar el error en la UI",
     "commitTimestamp": 1788925346890,
     "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788925497418,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788925511944,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener la lista de estados para la lista desplegable desde la clase Venta",
+    "commitTimestamp": 1788925545018,
+    "testId": 13
   }
 ]

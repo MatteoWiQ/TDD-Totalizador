@@ -90,4 +90,11 @@ describe("Venta", () => {
       expect(venta.esPrecioValido(0)).toEqual(false);
     });
   });
+
+  describe("obtenerEstados", () => {
+    it("deberia devolver la lista de estados disponibles", () => {
+      const venta = new Venta();
+      expect(venta.obtenerEstados()).toEqual(["UT", "NV", "TX", "AL", "CA"]);
+    });
+  });
 });

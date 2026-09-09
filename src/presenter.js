@@ -8,10 +8,8 @@ const estado = document.querySelector("#estado-select");
 const form = document.querySelector("#venta-form");
 const div = document.querySelector("#resultado-div");
 
-const estados = ["UT", "NV", "TX", "AL", "CA"];
-
 function renderizarEstados() {
-  estado.innerHTML = estados.map((e) => "<option value='" + e + "'>" + e + "</option>").join("");
+  estado.innerHTML = venta.obtenerEstados().map((e) => "<option value='" + e + "'>" + e + "</option>").join("");
 }
 
 renderizarEstados();
