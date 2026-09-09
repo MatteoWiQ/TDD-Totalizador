@@ -758,9 +758,31 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd129f68bc92645d80c72540e8f30126cfb92464",
     "commitName": "feat: definir costo de envio 9 para peso volumetrico mayor a 200 y mostrarlo en la UI",
     "commitTimestamp": 1788958484526,
     "testId": 29
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1788959250358,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1788959264802,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener la lista de tipos de cliente disponibles",
+    "commitTimestamp": 1788959273984,
+    "testId": 30
   }
 ]

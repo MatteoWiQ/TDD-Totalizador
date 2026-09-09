@@ -202,4 +202,16 @@ describe("Venta", () => {
       expect(venta.costoEnvioUnidad(201)).toEqual(9);
     });
   });
+
+  describe("obtenerTiposCliente", () => {
+    it("deberia devolver la lista de tipos de cliente disponibles", () => {
+      const venta = new Venta();
+      expect(venta.obtenerTiposCliente()).toEqual([
+        "Normal",
+        "Recurrente",
+        "Antiguo Recurrente",
+        "Especial"
+      ]);
+    });
+  });
 });

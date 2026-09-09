@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd129f68bc92645d80c72540e8f30126cfb92464",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T12:54:42.000Z",
       "message": "feat: definir costo de envio 9 para peso volumetrico mayor a 200 y mostrarlo en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/bd129f68bc92645d80c72540e8f30126cfb92464"
     },
     "stats": {
       "total": 16,
@@ -566,6 +566,25 @@
     },
     "coverage": 100,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T13:07:52.000Z",
+      "message": "feat: obtener la lista de tipos de cliente disponibles",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -99,6 +99,10 @@ class Venta {
     ];
   }
 
+  obtenerTiposCliente() {
+    return ["Normal", "Recurrente", "Antiguo Recurrente", "Especial"];
+  }
+
   impuestoAdicionalCategoria(categoria) {
     const impuestos = {
       Alimentos: 0,
