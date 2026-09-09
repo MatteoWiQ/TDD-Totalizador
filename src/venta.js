@@ -125,8 +125,11 @@ class Venta {
     return descuentos[categoria];
   }
 
-  costoEnvioUnidad() {
-    return 0;
+  costoEnvioUnidad(peso) {
+    if (peso <= 10) {
+      return 0;
+    }
+    return 3.5;
   }
 }
 
