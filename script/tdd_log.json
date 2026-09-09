@@ -490,9 +490,39 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "58896e9c9b485ced6f0646dbcad6c7b07eab751e",
     "commitName": "feat: usar California como estado por defecto en el estado inicial y la lista desplegable",
     "commitTimestamp": 1788957092109,
     "testId": 19
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1788957226487,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788957243650,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788957289366,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener la lista de categorias de producto y mostrarla en la lista desplegable",
+    "commitTimestamp": 1788957297215,
+    "testId": 20
   }
 ]

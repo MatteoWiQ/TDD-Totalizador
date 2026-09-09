@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "58896e9c9b485ced6f0646dbcad6c7b07eab751e",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T12:31:29.000Z",
       "message": "feat: usar California como estado por defecto en el estado inicial y la lista desplegable",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/58896e9c9b485ced6f0646dbcad6c7b07eab751e"
     },
     "stats": {
       "total": 5,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T12:34:55.000Z",
+      "message": "feat: obtener la lista de categorias de producto y mostrarla en la lista desplegable",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 37,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

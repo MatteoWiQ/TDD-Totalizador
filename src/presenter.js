@@ -5,6 +5,7 @@ const venta = new Venta();
 const cantidad = document.querySelector("#cantidad-input");
 const precio = document.querySelector("#precio-input");
 const estado = document.querySelector("#estado-select");
+const categoria = document.querySelector("#categoria-select");
 const form = document.querySelector("#venta-form");
 const cancelarButton = document.querySelector("#cancelar-button");
 const confirmarButton = document.querySelector("#confirmar-button");
@@ -15,6 +16,7 @@ function reiniciarFormulario() {
   cantidad.value = estadoInicial.cantidad;
   precio.value = estadoInicial.precio;
   estado.value = estadoInicial.estado;
+  categoria.value = "Varios";
   div.innerHTML = "";
 }
 
@@ -33,7 +35,13 @@ function renderizarEstados() {
   estado.value = venta.crearEstadoInicial().estado;
 }
 
+function renderizarCategorias() {
+  categoria.innerHTML = venta.obtenerCategorias().map((c) => "<option value='" + c + "'>" + c + "</option>").join("");
+  categoria.value = "Varios";
+}
+
 renderizarEstados();
+renderizarCategorias();
 
 function renderizar() {
   const cantidadValor = Number(cantidad.value);

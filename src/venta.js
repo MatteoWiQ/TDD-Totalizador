@@ -86,6 +86,18 @@ class Venta {
       confirmada: true
     };
   }
+
+  obtenerCategorias() {
+    return [
+      "Alimentos",
+      "Bebidas alcoholicas",
+      "Material de escritorio",
+      "Muebles",
+      "Electronicos",
+      "Vestimenta",
+      "Varios"
+    ];
+  }
 }
 
 export default Venta;

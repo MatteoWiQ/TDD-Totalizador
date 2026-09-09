@@ -136,4 +136,19 @@ describe("Venta", () => {
       });
     });
   });
+
+  describe("obtenerCategorias", () => {
+    it("deberia devolver la lista de categorias disponibles", () => {
+      const venta = new Venta();
+      expect(venta.obtenerCategorias()).toEqual([
+        "Alimentos",
+        "Bebidas alcoholicas",
+        "Material de escritorio",
+        "Muebles",
+        "Electronicos",
+        "Vestimenta",
+        "Varios"
+      ]);
+    });
+  });
 });
