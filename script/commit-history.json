@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:11:41.000Z",
+      "message": "feat: calcular el subtotal como precio por cantidad y mostrarlo en la UI",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 59,
+      "additions": 42,
+      "deletions": 17,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
