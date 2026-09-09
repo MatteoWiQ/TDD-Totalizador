@@ -66,4 +66,11 @@ describe("Venta", () => {
       expect(venta.calcularTotalFinal(60, 0, 3.75)).toEqual(63.75);
     });
   });
+
+  describe("redondearMoneda", () => {
+    it("deberia redondear el monto a dos decimales", () => {
+      const venta = new Venta();
+      expect(venta.redondearMoneda(1034.505)).toEqual(1034.51);
+    });
+  });
 });

@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c2af3cdcf5d03fd2472d5ec85df6646e5ab6e9d8",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:32:42.000Z",
       "message": "feat: calcular el precio total final y refactorizar para mostrar el detalle completo en el HTML",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/c2af3cdcf5d03fd2472d5ec85df6646e5ab6e9d8"
     },
     "stats": {
       "total": 31,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:35:14.000Z",
+      "message": "feat: redondear montos a dos decimales y aplicar redondeo en la UI",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 17,
+      "deletions": 6,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

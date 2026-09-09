@@ -43,6 +43,10 @@ class Venta {
   calcularTotalFinal(subtotal, ahorro, impuesto) {
     return subtotal - ahorro + impuesto;
   }
+
+  redondearMoneda(monto) {
+    return Math.round(monto * 100) / 100;
+  }
 }
 
 export default Venta;

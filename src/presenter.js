@@ -17,13 +17,13 @@ function renderizarEstados() {
 renderizarEstados();
 
 function renderizar() {
-  const subtotal = venta.calcularSubtotal(Number(precio.value), Number(cantidad.value));
+  const subtotal = venta.redondearMoneda(venta.calcularSubtotal(Number(precio.value), Number(cantidad.value)));
   const tasa = venta.calcularImpuestoTasa(estado.value);
-  const impuesto = venta.calcularImpuesto(subtotal, estado.value);
-  const total = venta.calcularTotalImpuesto(subtotal, impuesto);
+  const impuesto = venta.redondearMoneda(venta.calcularImpuesto(subtotal, estado.value));
+  const total = venta.redondearMoneda(venta.calcularTotalImpuesto(subtotal, impuesto));
   const descuento = venta.calcularDescuento(total);
-  const ahorro = venta.calcularAhorro(total, descuento);
-  const totalFinal = venta.calcularTotalFinal(subtotal, ahorro, impuesto);
+  const ahorro = venta.redondearMoneda(venta.calcularAhorro(total, descuento));
+  const totalFinal = venta.redondearMoneda(venta.calcularTotalFinal(subtotal, ahorro, impuesto));
 
   const lineas = [
     "Subtotal: " + subtotal,
@@ -31,7 +31,7 @@ function renderizar() {
     "Total: " + total,
     "Descuento: " + descuento,
     "Ahorro: $" + ahorro,
-    "Total con descuento: " + venta.calcularTotalConDescuento(total),
+    "Total con descuento: " + venta.redondearMoneda(venta.calcularTotalConDescuento(total)),
     "Precio final: " + totalFinal
   ];
   div.innerHTML = lineas.map((linea) => "<p>" + linea + "</p>").join("");

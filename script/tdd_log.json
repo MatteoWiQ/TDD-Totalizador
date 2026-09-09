@@ -222,9 +222,39 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c2af3cdcf5d03fd2472d5ec85df6646e5ab6e9d8",
     "commitName": "feat: calcular el precio total final y refactorizar para mostrar el detalle completo en el HTML",
     "commitTimestamp": 1788924763535,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788924842074,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788924860234,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788924904184,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: redondear montos a dos decimales y aplicar redondeo en la UI",
+    "commitTimestamp": 1788924915232,
+    "testId": 10
   }
 ]
