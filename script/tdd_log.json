@@ -252,9 +252,39 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "addf4263e1ca6fb619c4d2476d0ff28cd1f51232",
     "commitName": "feat: redondear montos a dos decimales y aplicar redondeo en la UI",
     "commitTimestamp": 1788924915232,
     "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788925216174,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788925231847,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788925264590,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que la cantidad sea mayor a cero y mostrar el error en la UI",
+    "commitTimestamp": 1788925278381,
+    "testId": 11
   }
 ]

@@ -73,4 +73,13 @@ describe("Venta", () => {
       expect(venta.redondearMoneda(1034.505)).toEqual(1034.51);
     });
   });
+
+  describe("esCantidadValida", () => {
+    it("deberia validar que la cantidad sea mayor a cero", () => {
+      const venta = new Venta();
+      expect(venta.esCantidadValida(20)).toEqual(true);
+      expect(venta.esCantidadValida(0)).toEqual(false);
+      expect(venta.esCantidadValida(-5)).toEqual(false);
+    });
+  });
 });

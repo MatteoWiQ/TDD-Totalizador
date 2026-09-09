@@ -17,7 +17,15 @@ function renderizarEstados() {
 renderizarEstados();
 
 function renderizar() {
-  const subtotal = venta.redondearMoneda(venta.calcularSubtotal(Number(precio.value), Number(cantidad.value)));
+  const cantidadValor = Number(cantidad.value);
+  const precioValor = Number(precio.value);
+
+  if (!venta.esCantidadValida(cantidadValor)) {
+    div.innerHTML = "<p>Cantidad invalida (debe ser mayor a 0)</p>";
+    return;
+  }
+
+  const subtotal = venta.redondearMoneda(venta.calcularSubtotal(precioValor, cantidadValor));
   const tasa = venta.calcularImpuestoTasa(estado.value);
   const impuesto = venta.redondearMoneda(venta.calcularImpuesto(subtotal, estado.value));
   const total = venta.redondearMoneda(venta.calcularTotalImpuesto(subtotal, impuesto));

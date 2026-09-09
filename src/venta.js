@@ -47,6 +47,10 @@ class Venta {
   redondearMoneda(monto) {
     return Math.round(monto * 100) / 100;
   }
+
+  esCantidadValida(cantidad) {
+    return cantidad > 0;
+  }
 }
 
 export default Venta;
