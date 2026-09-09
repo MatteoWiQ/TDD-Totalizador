@@ -912,9 +912,31 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bcaa53f95950a3575ea75d9a1802cf02f127c99d",
     "commitName": "feat: definir descuento fijo de 100 para cliente Recurrente con precio neto mayor a 3000 en Alimentos",
     "commitTimestamp": 1788959660127,
     "testId": 36
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1788959679440,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1788959695275,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: definir descuento fijo de 200 para cliente Especial con precio neto mayor a 7000 en Electronicos",
+    "commitTimestamp": 1788959710332,
+    "testId": 37
   }
 ]

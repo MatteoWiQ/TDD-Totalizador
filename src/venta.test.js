@@ -243,5 +243,10 @@ describe("Venta", () => {
       const venta = new Venta();
       expect(venta.descuentoMontoFijo(4000, "Alimentos", "Recurrente")).toEqual(100);
     });
+
+    it("deberia devolver 200 de descuento fijo para cliente Especial con precio neto mayor a 7000 en Electronicos", () => {
+      const venta = new Venta();
+      expect(venta.descuentoMontoFijo(8000, "Electronicos", "Especial")).toEqual(200);
+    });
   });
 });
