@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "56bc885467569c36c2604d00edb31d6fc32e0cb2",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:50:42.000Z",
       "message": "feat: confirmar la compra y refactorizar cancelar y confirmar para mostrar alert",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/56bc885467569c36c2604d00edb31d6fc32e0cb2"
     },
     "stats": {
       "total": 32,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T12:27:54.000Z",
+      "message": "feat: aplicar descuento escalonado de 5% desde un total de 3000",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

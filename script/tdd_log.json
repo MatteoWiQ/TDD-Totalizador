@@ -394,9 +394,31 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56bc885467569c36c2604d00edb31d6fc32e0cb2",
     "commitName": "feat: confirmar la compra y refactorizar cancelar y confirmar para mostrar alert",
     "commitTimestamp": 1788925843638,
     "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1788956851001,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788956867503,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento escalonado de 5% desde un total de 3000",
+    "commitTimestamp": 1788956876620,
+    "testId": 16
   }
 ]

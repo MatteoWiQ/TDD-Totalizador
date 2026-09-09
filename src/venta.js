@@ -26,6 +26,9 @@ class Venta {
     if (total >= 30000) {
       return 0.15;
     }
+    if (total >= 3000) {
+      return 0.05;
+    }
     if (total >= 1000) {
       return 0.03;
     }
