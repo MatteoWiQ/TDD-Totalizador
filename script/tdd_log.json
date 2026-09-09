@@ -580,9 +580,47 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2965914ab3e3cc484b4b8583ee8ae7573f0e134b",
     "commitName": "feat: calcular descuento adicional por categoria de producto y mostrarlo en la UI",
     "commitTimestamp": 1788957609083,
     "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788957628249,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788957642942,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788958005511,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788958019012,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: definir costo de envio 0 para peso volumetrico de hasta 10",
+    "commitTimestamp": 1788958086216,
+    "testId": 23
   }
 ]

@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2965914ab3e3cc484b4b8583ee8ae7573f0e134b",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T12:40:07.000Z",
       "message": "feat: calcular descuento adicional por categoria de producto y mostrarlo en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/2965914ab3e3cc484b4b8583ee8ae7573f0e134b"
     },
     "stats": {
       "total": 22,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T12:48:04.000Z",
+      "message": "feat: definir costo de envio 0 para peso volumetrico de hasta 10",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

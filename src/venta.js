@@ -124,6 +124,10 @@ class Venta {
     };
     return descuentos[categoria];
   }
+
+  costoEnvioUnidad() {
+    return 0;
+  }
 }
 
 export default Venta;

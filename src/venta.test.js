@@ -165,4 +165,11 @@ describe("Venta", () => {
       expect(venta.descuentoAdicionalCategoria("Alimentos")).toEqual(0.02);
     });
   });
+
+  describe("costoEnvioUnidad", () => {
+    it("deberia devolver 0 para un peso volumetrico de 10", () => {
+      const venta = new Venta();
+      expect(venta.costoEnvioUnidad(10)).toEqual(0);
+    });
+  });
 });
