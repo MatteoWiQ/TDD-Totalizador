@@ -237,4 +237,11 @@ describe("Venta", () => {
       expect(venta.descuentoEnvioCliente("Especial")).toEqual(0.015);
     });
   });
+
+  describe("descuentoMontoFijo", () => {
+    it("deberia devolver 100 de descuento fijo para cliente Recurrente con precio neto mayor a 3000 en Alimentos", () => {
+      const venta = new Venta();
+      expect(venta.descuentoMontoFijo(4000, "Alimentos", "Recurrente")).toEqual(100);
+    });
+  });
 });

@@ -665,12 +665,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c56617590d8b1f006042cc003648e89d2b5c8e60",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T13:13:29.000Z",
       "message": "feat: definir 1.5% de descuento en envio para cliente Especial",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/c56617590d8b1f006042cc003648e89d2b5c8e60"
     },
     "stats": {
       "total": 8,
@@ -680,6 +680,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T13:14:18.000Z",
+      "message": "feat: definir descuento fijo de 100 para cliente Recurrente con precio neto mayor a 3000 en Alimentos",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 98.18,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -117,6 +117,13 @@ class Venta {
     return 0;
   }
 
+  descuentoMontoFijo(precioNeto, categoria, tipoCliente) {
+    if (tipoCliente === "Recurrente" && precioNeto > 3000 && categoria === "Alimentos") {
+      return 100;
+    }
+    return 0;
+  }
+
   impuestoAdicionalCategoria(categoria) {
     const impuestos = {
       Alimentos: 0,

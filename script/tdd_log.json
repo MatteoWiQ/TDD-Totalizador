@@ -890,9 +890,31 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c56617590d8b1f006042cc003648e89d2b5c8e60",
     "commitName": "feat: definir 1.5% de descuento en envio para cliente Especial",
     "commitTimestamp": 1788959611338,
     "testId": 35
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1788959633159,
+    "success": false,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1788959651737,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: definir descuento fijo de 100 para cliente Recurrente con precio neto mayor a 3000 en Alimentos",
+    "commitTimestamp": 1788959660127,
+    "testId": 36
   }
 ]
