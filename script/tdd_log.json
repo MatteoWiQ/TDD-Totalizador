@@ -934,9 +934,23 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "052aebda09c8c6cecac5536ce31f9c6844e0c991",
     "commitName": "feat: definir descuento fijo de 200 para cliente Especial con precio neto mayor a 7000 en Electronicos",
     "commitTimestamp": 1788959710332,
     "testId": 37
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1788959735258,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: verificar sin descuento fijo cuando no se cumplen las condiciones del tipo de cliente",
+    "commitTimestamp": 1788959743764,
+    "testId": 38
   }
 ]

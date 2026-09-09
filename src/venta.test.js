@@ -248,5 +248,10 @@ describe("Venta", () => {
       const venta = new Venta();
       expect(venta.descuentoMontoFijo(8000, "Electronicos", "Especial")).toEqual(200);
     });
+
+    it("deberia devolver 0 de descuento fijo cuando no se cumplen las condiciones", () => {
+      const venta = new Venta();
+      expect(venta.descuentoMontoFijo(2000, "Alimentos", "Recurrente")).toEqual(0);
+    });
   });
 });

@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "052aebda09c8c6cecac5536ce31f9c6844e0c991",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T13:15:08.000Z",
       "message": "feat: definir descuento fijo de 200 para cliente Especial con precio neto mayor a 7000 en Electronicos",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/052aebda09c8c6cecac5536ce31f9c6844e0c991"
     },
     "stats": {
       "total": 8,
@@ -718,6 +718,25 @@
     },
     "coverage": 98.25,
     "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T13:15:41.000Z",
+      "message": "test: verificar sin descuento fijo cuando no se cumplen las condiciones del tipo de cliente",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 38,
     "failed_tests": 0,
     "conclusion": "success"
   }
