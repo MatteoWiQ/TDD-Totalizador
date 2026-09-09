@@ -129,7 +129,10 @@ class Venta {
     if (peso <= 10) {
       return 0;
     }
-    return 3.5;
+    if (peso <= 20) {
+      return 3.5;
+    }
+    return 5;
   }
 }
 
