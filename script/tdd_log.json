@@ -16,9 +16,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "974bf4a79a2f22eca918d7c80d6f24e31ac616a1",
     "commitName": "feat: calcular el subtotal como precio por cantidad y mostrarlo en la UI",
     "commitTimestamp": 1788923502015,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788923513886,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788923520218,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener la tasa de impuesto por estado UT NV TX AL CA y llenar la lista desplegable",
+    "commitTimestamp": 1788923528916,
+    "testId": 1
   }
 ]

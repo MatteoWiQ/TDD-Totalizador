@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "974bf4a79a2f22eca918d7c80d6f24e31ac616a1",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:11:41.000Z",
       "message": "feat: calcular el subtotal como precio por cantidad y mostrarlo en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/974bf4a79a2f22eca918d7c80d6f24e31ac616a1"
     },
     "stats": {
       "total": 59,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:12:07.000Z",
+      "message": "feat: obtener la tasa de impuesto por estado UT NV TX AL CA y llenar la lista desplegable",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 30,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

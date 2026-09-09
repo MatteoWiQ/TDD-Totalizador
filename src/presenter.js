@@ -8,9 +8,20 @@ const estado = document.querySelector("#estado-select");
 const form = document.querySelector("#venta-form");
 const div = document.querySelector("#resultado-div");
 
+const estados = ["UT", "NV", "TX", "AL", "CA"];
+
+function renderizarEstados() {
+  estado.innerHTML = estados.map((e) => "<option value='" + e + "'>" + e + "</option>").join("");
+}
+
+renderizarEstados();
+
 function renderizar() {
   const subtotal = venta.calcularSubtotal(Number(precio.value), Number(cantidad.value));
-  div.innerHTML = "<p>Subtotal: " + subtotal + "</p>";
+  const tasa = venta.calcularImpuestoTasa(estado.value);
+  div.innerHTML =
+    "<p>Subtotal: " + subtotal + "</p>" +
+    "<p>Impuesto (" + estado.value + " " + tasa + ")</p>";
 }
 
 form.addEventListener("submit", (event) => {
