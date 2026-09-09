@@ -22,11 +22,13 @@ function renderizar() {
   const impuesto = venta.calcularImpuesto(subtotal, estado.value);
   const total = venta.calcularTotalImpuesto(subtotal, impuesto);
   const descuento = venta.calcularDescuento(total);
+  const totalConDescuento = venta.calcularTotalConDescuento(total);
   div.innerHTML =
     "<p>Subtotal: " + subtotal + "</p>" +
     "<p>Impuesto (" + estado.value + " " + tasa + "): " + impuesto + "</p>" +
     "<p>Total: " + total + "</p>" +
-    "<p>Descuento: " + descuento + "</p>";
+    "<p>Descuento: " + descuento + "</p>" +
+    "<p>Total con descuento: " + totalConDescuento + "</p>";
 }
 
 form.addEventListener("submit", (event) => {

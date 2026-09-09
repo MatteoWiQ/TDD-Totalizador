@@ -31,6 +31,10 @@ class Venta {
     }
     return 0;
   }
+
+  calcularTotalConDescuento(total) {
+    return total - total * this.calcularDescuento(total);
+  }
 }
 
 export default Venta;

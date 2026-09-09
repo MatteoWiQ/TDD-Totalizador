@@ -45,4 +45,11 @@ describe("Venta", () => {
       expect(venta.calcularDescuento(30000)).toEqual(0.15);
     });
   });
+
+  describe("calcularTotalConDescuento", () => {
+    it("deberia calcular el total con descuento aplicado", () => {
+      const venta = new Venta();
+      expect(venta.calcularTotalConDescuento(1000)).toEqual(970);
+    });
+  });
 });
