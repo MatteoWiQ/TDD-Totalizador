@@ -21,6 +21,10 @@ class Venta {
   calcularTotalImpuesto(subtotal, impuesto) {
     return subtotal + impuesto;
   }
+
+  calcularDescuento(total) {
+    return 0;
+  }
 }
 
 export default Venta;

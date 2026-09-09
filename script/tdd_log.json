@@ -82,9 +82,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "274766e6365aea4cd654938a1e4913bfc007eb03",
     "commitName": "feat: aplicar el impuesto al subtotal y mostrarlo en la UI",
     "commitTimestamp": 1788923879123,
     "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788924209396,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788924235057,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: definir descuento 0 cuando el total es menor a 1000 y mostrarlo en la UI",
+    "commitTimestamp": 1788924254630,
+    "testId": 4
   }
 ]

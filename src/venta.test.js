@@ -28,4 +28,11 @@ describe("Venta", () => {
       expect(venta.calcularTotalImpuesto(60, 3.75)).toEqual(63.75);
     });
   });
+
+  describe("calcularDescuento", () => {
+    it("deberia devolver 0 cuando el total es menor a 1000", () => {
+      const venta = new Venta();
+      expect(venta.calcularDescuento(999)).toEqual(0);
+    });
+  });
 });

@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "274766e6365aea4cd654938a1e4913bfc007eb03",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T03:17:58.000Z",
       "message": "feat: aplicar el impuesto al subtotal y mostrarlo en la UI",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/274766e6365aea4cd654938a1e4913bfc007eb03"
     },
     "stats": {
       "total": 15,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T03:24:13.000Z",
+      "message": "feat: definir descuento 0 cuando el total es menor a 1000 y mostrarlo en la UI",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
