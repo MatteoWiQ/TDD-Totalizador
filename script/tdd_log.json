@@ -684,9 +684,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "be17cb18861675a59abfb1da94be6b694ae25311",
     "commitName": "feat: definir costo de envio 6 para peso volumetrico entre 41 y 80",
     "commitTimestamp": 1788958228804,
     "testId": 26
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1788958251783,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1788958264722,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: definir costo de envio 6.5 para peso volumetrico entre 81 y 100",
+    "commitTimestamp": 1788958272593,
+    "testId": 27
   }
 ]

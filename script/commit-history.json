@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "be17cb18861675a59abfb1da94be6b694ae25311",
     "author": "Mateo Wilson",
     "commit": {
       "date": "2026-09-09T12:50:26.000Z",
       "message": "feat: definir costo de envio 6 para peso volumetrico entre 41 y 80",
-      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/be17cb18861675a59abfb1da94be6b694ae25311"
     },
     "stats": {
       "total": 10,
@@ -509,6 +509,25 @@
     },
     "coverage": 100,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Wilson",
+    "commit": {
+      "date": "2026-09-09T12:51:10.000Z",
+      "message": "feat: definir costo de envio 6.5 para peso volumetrico entre 81 y 100",
+      "url": "https://github.com/MatteoWiQ/TDD-Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }
